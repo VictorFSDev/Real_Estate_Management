@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User_Master_Page.Master.cs" Inherits="Real_Estate_Management.User_Pages.User_Master" %>
+<!DOCTYPE html>
+
+<html >
+<head runat="server">
+
+<style>
+     .logout{
+       background-color:#EB6C73  !important;
+        background-image:none !important;
+
+       
+   }
+
+   .logout:hover{
+       background-color:red !important;
+      background-image:none !important;
+
+
+
+
+   }
+
+
+
+</style>
+ 
+    <link rel="stylesheet" href="../Design/navbar/styles.css" />
+
+    <!-- Including the Lobster font from Google's Font Directory -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+
+</head>
+<body style="background-image: url(../images/maxresdefault.jpg);
+
+
+
+" >
+    <form id="form1" runat="server">
+        <div  >
+            
+            <nav style="width:100%;">
+                <ul class="fancyNav">
+                    <li id="home">
+                        
+                        <asp:LinkButton ID="LinkButton5" class="homeIcon" runat="server" OnClick="LinkButton5_Click">Home</asp:LinkButton>
+                    <li id="news">
+                        <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">new announce</asp:LinkButton>
+
+                    </li>
+                    <li id="about">
+                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click1">messages</asp:LinkButton>
+                    </li>
+                    <li id="services">
+                        <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">my announces</asp:LinkButton>
+                    </li>
+                    <li id="contact">
+                        <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">Saved Apartment</asp:LinkButton>
+                    </li>
+                     <li id="log out" class="logout" >
+                           <asp:LinkButton ID="Button"  runat="server" OnClick="log_out_Click">Log out</asp:LinkButton>
+
+                    </li>
+                </ul>
+            </nav>
+
+
+
+           
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+   
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+
+</html>
+

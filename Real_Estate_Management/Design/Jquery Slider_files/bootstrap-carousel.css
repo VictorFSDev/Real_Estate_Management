@@ -1,0 +1,321 @@
+/*!
+ * Bootstrap v2.1.0
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Wire+One);
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.carousel {
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+.carousel-inner {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.carousel .item {
+  display: none;
+  position: relative;
+  -webkit-transition: 0.6s ease-in-out left;
+  -moz-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+}
+
+.carousel .item > img {
+	display:inline;	
+  /*display: block;*/
+  line-height: 1;
+}
+  
+/* Frames for the images
+ * ============================ */
+.ts-img-frame-1 {
+  border: 3px solid white;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+     -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+          box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+}
+
+.ts-img-frame-2 {
+
+}
+
+/* Frames for the text
+ * ============================== */
+
+.ts-text-frame-1 {
+  border: 1px solid white;
+
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+
+.ts-text-frame-2 {
+  border: 1px solid #101010;
+
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+.ts-text-frame-3 {
+  border: 1px solid #bbb;
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, .8);
+     -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, .8);
+          box-shadow: 0 1px 3px rgba(34, 25, 25, .8);
+
+}
+
+.ts-text-frame-4  {
+
+  border: 3px solid white;
+  -webkit-border-radius: 3px;
+     -moz-box-shadow: 3px;
+          box-shadow: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+}
+
+.ts-text-frame-5 {
+  border: 3px solid #498af2;
+
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-box-shadow: 0 0 0 1px #3079ed
+                    , 0 1px 3px rgba(0, 0, 0, .3);
+     -moz-box-shadow: 0 0 0 1px #3079ed
+                    , 0 1px 3px rgba(0, 0, 0, .3);
+          box-shadow: 0 0 0 1px #3079ed
+                    , 0 1px 3px rgba(0, 0, 0, .3);
+}
+
+.ts-text-frame-6 {
+  border: 3px solid #db4b39;
+
+  /*-webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  */
+  -webkit-box-shadow: 0 0 0 1px #c13828
+                    , 0 1px 3px rgba(0, 0, 0, .3);
+     -moz-box-shadow: 0 0 0 1px #c13828
+                    , 0 1px 3px rgba(0, 0, 0, .3);
+          box-shadow: 0 0 0 1px #c13828
+                    , 0 1px 3px rgba(0, 0, 0, .3);
+}
+
+.carousel .active,
+.carousel .next,
+.carousel .prev {
+  display: block;
+}
+.carousel .active {
+  left: 0;
+}
+.carousel .next,
+.carousel .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.carousel .next {
+  left: 100%;
+}
+.carousel .prev {
+  left: -100%;
+}
+.carousel .next.left,
+.carousel .prev.right {
+  left: 0;
+}
+.carousel .active.left {
+  left: -100%;
+}
+.carousel .active.right {
+  left: 100%;
+}
+.carousel-control {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #222222;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.carousel-control.right {
+  left: auto;
+  right: 15px;
+}
+.carousel-control:hover {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.carousel-caption {
+  
+  position: absolute;
+  /*left: 0;*/
+  /*right: 0;*/
+  
+  /*bottom: 0;*/
+  padding: 15px;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.75);
+
+  /* ADDITIONAL
+   * ---------------- */
+   text-align: left;
+}
+.carousel-caption h4,
+.carousel-caption p {
+  color: #ffffff;
+  line-height: 20px;
+	font-weight: normal;
+}
+.carousel-caption h4 {
+  margin: 0 0 5px;
+  font-size: 14px;
+}
+.carousel-caption p {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.carousel-container iframe{
+	width:100%;
+	max-width:100%;
+	height:100%;
+}
+
+/*slider type*/
+div.ts_img_left h4{
+	margin:0 0 10px;
+}
+div.ts_img_left div.ts_img,div.ts_img_right div.ts_img{
+	width:54%;
+	height:100%;
+	position:relative;
+	text-align:center;
+}
+div.ts_img_left div.ts_img{
+	float:left;
+}
+div.ts_img_right div.ts_img{
+	float:right;
+}
+div.ts_img_left img,div.ts_img_right img{
+	width:75%;
+	height:75%;
+	border:1px #000000 solid;
+	position:absolute;
+	top:50%;
+	height:10em; 
+	margin-top:-5em;
+}
+/**/
+
+.ts_sld_scroller{
+	height:62px;
+	width:100%;
+	overflow:hidden;
+/*margin:0 auto 2%;*/
+	position:absolute;
+	z-index:104;
+
+}
+.ts_sld_scroller li{
+/*	max-width:100px;*/
+	max-height:62px;
+}
+.ts_sld_scroller img{
+	border:1px solid #666 ;
+	margin:0;
+}
+div.ts_scr_left{
+	width:21%;
+	left:-10px;/*editado valor original 0*/
+}
+div.ts_scr_left ,div.ts_scr_right,div.ts_scr_top{
+	top:0;
+}
+div.ts_scr_right{
+	right:0;
+	width:20%;	
+}
+.ts_sld_scroller ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+	overflow:hidden;
+	z-index: 100;/*Not Exist*/
+}
+div.ts_scr_bottom{
+	bottom:0;
+}
+div.ts_scr_top ul li,div.ts_scr_bottom ul li{
+	float:left;
+}
+div.ts_scr_bottom ul li img,div.ts_scr_top ul li img{
+	display:block;
+}
+.ts_sld_clear{
+	clear:both;
+	margin-bottom:3%;
+}
+.ts-slider-area .carousel{
+	margin-bottom: 0;
+}

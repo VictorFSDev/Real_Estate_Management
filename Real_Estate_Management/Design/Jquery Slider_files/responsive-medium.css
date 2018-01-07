@@ -1,0 +1,204 @@
+/* CSS Document - Devices  */
+/* bootstrap_navbar */
+@import url(menu-responsive.css);
+
+.body_theme{
+	font-size: 18px;
+}
+/***********/
+/* header */
+/*********/
+#header {
+	width: auto;
+	padding: 23px 10px;
+}
+.header_menu_bar ul{
+	width: auto;
+}
+#header a.logo {
+	float: none;
+	*zoom: 0;
+	*display: inline;
+	display: inline-block;
+	margin: 10px 0 0;
+}
+.container_menu{
+	display: none!important;
+}
+#header .navbar, .option_no-responsive{
+	display:block!important;
+}
+
+/***********/
+/* slider */
+/*********/
+div.wrapper_slider{
+	height: auto;
+}
+div.slider_area{
+	width: auto!important;
+	height: auto!important;
+	background-image: none!important;
+}
+.nivoSlider, #accordion-slider, .piecemaker, div.anythingSlider{
+	display: none;
+}
+div.contentSlide h1{
+	font-size: 23px!important;
+	margin-top: 5px;
+}
+.wtsCarousel{
+	display: block;
+}
+#wptg_Carousel2 .carousel-control.left{
+	left: 20px;
+}
+#wptg_Carousel2 .carousel-control.right{
+	right: 20px;
+}
+
+/************/
+/* content */
+/**********/
+.widget_content ul{
+	margin: 0;
+}
+.widget_content ul li{
+	display: inline-block;
+}
+.entry_post img.size-full{
+	width: 100%;
+	height: auto;
+}
+
+#content,
+#footer,
+.sidebar_top .width_boxes_1,
+.sidebar_down .width_boxes_1,
+div.main_content,
+div.sidebar_right,
+div.sidebar_left,
+div.width_boxes_3:last-child{
+	width: auto!important;
+	float:none;
+}
+.sidebar_top,
+.sidebar_down,
+.footer_sidebar,
+.sidebar_right,
+.sidebar_left,
+.width_boxes_3:last-child,
+div#content.page-404{
+	text-align:center;
+}
+div.sidebar_right .boxes,
+div.sidebar_left .boxes{
+	display: block;
+}
+div.width_boxes_3,
+div.width_boxes_2,
+div.width_boxes_4{
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+.sidebar_top .width_boxes_4,
+.sidebar_down .width_boxes_4,
+.sidebar_top .width_boxes_3, 
+.sidebar_down .width_boxes_3,
+.sidebar_top .width_boxes_2,
+.sidebar_down .width_boxes_2,
+.sidebar_down .width_boxes_3{
+	width: 39%;
+	float: none;
+}
+
+div.sidebar_right,
+div.sidebar_left,
+div.width_boxes_3:last-child{
+	display: block;
+	width: auto;
+}
+
+/***************/
+/* taxonomies */
+/*************/
+.taxonomy_filter{
+	width: 564px;
+	margin: auto;
+}
+.container_img_galleryshadow{
+	margin: 0;
+}
+.taxonomy_item h2{
+	font-size: 20px;
+}
+.taxonomy_item{
+	width: 262px;
+}
+
+
+/****************/
+/* testimonial */
+/**************/
+div.taxonomy_testimonial{
+	width: 40%;
+	display: inline-block;
+	float: none;
+}
+div.taxonomy_testimonial p{
+	text-align: justify;
+}
+.wrap_testimonial{
+	text-align: center;
+}
+
+/************/
+/* contact */
+/**********/
+.contact_form {
+	width: 500x;
+	margin: auto;
+}
+.contact_form h1{
+	text-align:center;
+}
+
+/************/
+/* layouts */
+/**********/
+div#main_settings{
+	display: none;
+}
+div.wrap_lay2,
+div.wrap_lay4,
+div.wrap_lay5,
+div.wrap_lay6 {
+	padding: 0;
+	width: auto;
+	border-radius: 0px;
+}
+
+/***************************/
+/* responses and comments */
+/*************************/
+.commentRight{
+	width: 84%;
+}
+
+/***********/
+/* footer */
+/*********/
+.sidebar_right .boxes,
+.sidebar_left .boxes{
+	margin: 10px;
+}
+.footer_sidebar .width_boxes_3,
+.footer_sidebar .width_boxes_2,
+.footer_sidebar .width_boxes_4{
+	width: 45%;
+	display: inline-block;
+	float: none;
+	text-align: left;
+	vertical-align: top;
+}

@@ -1,0 +1,34 @@
+
+
+/* line 34, sass/screen.scss */
+#viewport {
+  overflow: hidden;
+}
+/* line 97, sass/screen.scss */
+#effect-list {
+  overflow: hidden;
+}
+/* line 99, sass/screen.scss */
+#effect-list li {
+  display: inline;
+}
+
+/* line 102, sass/screen.scss */
+.effect, .effect:hover {
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  border: solid 1px black;
+  border-radius: 7px;
+  padding: 10px 12px 6px;
+  color: #ccc;
+  text-decoration: none;
+  background-color: #555;
+  -webkit-box-shadow: inset 0px 0px 8px #000;
+  -moz-box-shadow: inset 0px 0px 8px #333;
+  box-shadow: inset 0px 0px 8px #333;
+}
+/* line 117, sass/screen.scss */
+.effect.current, .effect:hover.current {
+  color: #2edbac;
+}

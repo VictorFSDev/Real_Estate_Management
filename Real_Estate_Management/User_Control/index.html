@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>3D Image Transitions</title>
+		<!--[if lte IE 8]>
+ 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link href='http://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css'>
+		
+		<!-- Use jQuery for best compatibility with other CSS3 enabled browsers -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="js/flux.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+			$(function(){
+				if(!flux.browser.supportsTransitions)
+					alert("Flux Slider requires a browser that supports CSS3 transitions");
+					
+				window.f = new flux.slider('#slider', {
+					pagination: false,
+					controls: false,
+					transitions: ['explode', 'tiles3d', 'bars3d', 'cube', 'turn'],
+					autoplay: false
+				});
+				
+				$('.transitions').click(function(event){
+					event.preventDefault();
+					window.f.next($(event.target).data('transition'), $(event.target).data('params'));
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<section class="container">
+			<h1>3D Image Transitions</h1>
+			<h2>Mozilla Dev Derby March 2012</h2>
+			<div id="slider">
+				<img src="imgs/peacock.jpg" alt="" />
+				<img src="imgs/koi.jpg" alt="" />
+				<img src="imgs/life.jpg" alt="" />
+			</div>
+			<ul class="transitions">
+				<li><button type="button" data-transition="explode" data-params='{"rows": 4}'>Explode</button></li>
+				<li><button type="button" data-transition="tiles3d" data-params='{"columns": 6}'>Tile</button></li>
+				<li><button type="button" data-transition="bars3d">Bars</button></li>
+				<li><button type="button" data-transition="cube">Cube</button></li>
+				<li><button type="button" data-transition="turn">Turn</button></li>
+			</ul>
+			<footer>
+				<p>Powered by <a href="http://www.joelambert.co.uk/flux">Flux Slider</a> &copy; Copyright 2012 Joe Lambert. All Rights Reserved. Follow me on Twitter <a href="http://www.twitter.com/joelambert">@joelambert</a></p>
+				<p>All illustrations are copyright <a href="http://ndesign-studio.com">Nick La</a> and are used with permission.</p>More script and css style
+: <a href="http://www.htmldrive.net/" title="HTML DRIVE - Free DHMTL Scripts,Jquery plugins,Javascript,CSS,CSS3,Html5 Library">www.htmldrive.net </a>
+
+			</footer>
+		</section>
+	</body>
+</html>

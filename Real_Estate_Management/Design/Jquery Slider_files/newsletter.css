@@ -1,0 +1,21 @@
+body div.news{
+	display: none;
+}
+iframe.news{
+	width: 100%;
+	height: 100%;
+}
+	#TB_ajaxContent::-webkit-scrollbar {
+	    width: auto;
+	    height: auto;
+	}
+
+	#TB_ajaxContent::-webkit-scrollbar-track{
+		background: none;
+	}
+
+	#TB_ajaxContent::-webkit-scrollbar-thumb{
+		background: none;
+		border-radius:0;
+
+	}

@@ -1,0 +1,339 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);	
+
+
+#fb_like
+{
+    visibility: hidden;
+    display: none;
+    position: relative;
+    top: 7px;
+}
+
+body
+{
+    text-align:center;
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;			
+}
+
+.btn span{
+    margin-right:5px;
+}
+
+body button.btn_border,
+body button.btn_borderds
+{
+    border: 1px solid;
+    margin-top:0;
+    margin-bottom:0;
+    font-family: 'Open Sans', sans-serif;	  
+    border-radius : 0; 
+
+}
+
+#emailResult
+{
+    visibility: hidden;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.buttonsContainer
+{
+    max-width: 300px;
+    height: 200px;
+    margin: 15px auto;
+}
+
+span {
+    color: black;
+    font-weight: bold;
+}
+
+#form_mail p,#form_newsletter p {
+  padding:10px;
+}
+#form_mail label,#form_newsletter label {
+  float:left;
+  margin: 0 10px 0;
+}
+#form_mail .error,#form_newsletter .error {
+  margin: 0 10px 0;
+  color: red;
+}
+#form_mail label.error{
+  display:block !important;
+  visibility: hidden;
+  bottom:11px;
+  left:42px;
+  font-size:12px;
+  text-align: left;
+
+}
+#form_mail input[type='text'],#form_newsletter input[type='text']{
+  width: 300px;
+  height: 30px;
+  margin: 0 auto 15px;
+  display:block;
+  color: #999;
+  float:left;
+
+}
+a.capture_href, #submit_mail_ns {
+  display: block;
+  width: 150px;
+  border: 1px solid #888;
+  box-shadow: 0 0 1px #CCC;
+  color: white;
+  text-align:center;
+  padding: 7px 0;
+  margin: 0 10px 0 0;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit_mail_ns{
+  height: 32px;
+  margin: 0 233px 0 0;
+}
+.capture_href:hover, #submit_mail:hover,#submit_mail_ns:hover {
+  background: #4FCEEA;
+}
+input.capture_href_hidden[type="text"] {
+  display: none!important;
+  visibility:hidden;
+}
+#contactform p.mw_into,#contactform_ns p.mw_into{
+  padding-bottom:0;
+}
+body iframe.social_list{
+  width:230px;
+  height:45px;
+  position:relative;
+  right:27px;
+}
+hr.shk_separate{
+  width:94%;
+  margin:15px auto 5px;
+  border:none;
+  border-top:1px #EEE solid;
+}
+div.shk_social_area p{
+  margin:0;
+}
+#contactform p.title{
+  font-size:27px;
+  text-align:center;
+  line-height:14px;
+  font-weight:600;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+#contactform p.by{
+  padding:5px 0 0 ;
+  margin:0;
+  font-size: 12px;
+  text-align: center;
+}
+p.by a, #form_mail div.terms a{
+  color: #323036;
+}
+p.by a:hover, #form_mail div.terms a:hover{
+  color:#848286;
+}
+
+/*require clean this css*/
+#cboxLoadedContent{
+  margin-bottom:0;
+}
+iframe#social{
+  width:100%;
+  height:250px;
+  margin:auto;
+}
+div.down.ssh iframe#social{
+  max-height: 92px ;
+}
+form#contactform{
+  font-family:'Open Sans', sans-serif;
+}
+#contactform p.mw_into{
+  padding-bottom:0;
+  margin:10px 0;
+}
+body #form_mail #submit_mail{
+  font-size:13px;
+  padding: 7px 10px 7px;
+  background-image: none;
+  border-radius: 0;
+}
+#form_mail h4{
+  letter-spacing:0;
+  padding:0;
+  margin:30px 0 10px;
+  font-weight:bold;
+  font-size:20px;
+  color:#323036;
+}
+#form_mail br{
+  font-size:14px;
+}
+div.isbordertop{
+  border-top:1px solid #ddd;
+  padding-top:10px;
+}
+#form_mail div.isbordertop p{
+  padding-bottom:0;
+  margin-bottom:0;
+}
+div.isborderdown{
+  border-bottom:1px solid #ddd;
+}
+div.isborderdown h1.sshks {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 10px 0 0;
+}
+div.isborderdown h1.sshks:hover, div.isborderdown h1.sshks:hover a {
+
+  text-decoration: none;
+}
+div.isborderdown h1.sshks a:hover{
+  text-decoration: none;
+  opacity: 0.8;
+
+}
+div.isborderdown h1.sshks span{
+  vertical-align:top;
+}
+div.news,div.down{
+  display:inline-block;
+  vertical-align:text-top;
+  text-align:center;
+}
+div.news.border_rg{
+  border-right:1px solid #ddd;
+  width:48%;
+}
+#form_mail div.shk_social_area p{
+  margin:0;
+}
+#form_mail #contactform p.by{
+  margin : 0;
+  padding : 0;
+}
+div.down.ssh{
+  width:48%;
+}
+#form_mail div.news.border_rg input[type='text']{
+  width:auto;
+}
+ #form_mail label{
+   float:none;
+   bottom:12px !important;
+   left:inherit !important;
+   margin:0 !important;
+}
+
+
+
+
+#cboxLoadedContent{
+    margin-bottom:0;
+}
+#form_mail h4,#form_mail h3{
+    margin:18px 0 10px;
+    letter-spacing:0;
+}
+div.isbordertop{
+    border-top:1px solid #ddd;
+}
+#form_mail div.isbordertop p{
+  padding-bottom:0;
+  margin-bottom:0;
+}
+div.isborderdown{
+    border-bottom:1px solid #ddd;
+}
+div.isborderdown h1.sshks {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  margin: 5px 0 0;
+  letter-spacing: -2px;
+  color: #37404A;
+  font-size: 24px;
+
+}
+div.isborderdown h1.sshks:hover, div.isborderdown h1.sshks:hover a {
+      text-decoration: none;
+}
+div.isborderdown h1.sshks a:hover{
+  text-decoration: none;
+  opacity: 0.9;
+
+}
+div.isborderdown h1.sshks span{
+  vertical-align:top;
+}
+div.news,div.down{
+    vertical-align:text-top;
+    text-align:center;
+}
+div.news.border_rg{
+    border-right:1px solid #ddd;
+    width:56%;
+}
+div.down.ssh{
+    width:43%;
+}
+#form_mail div.news input[type='text']{
+    float:none;
+    display:block;
+    width:280px;
+    margin-bottom:2px;
+}
+#form_mail div.news.border_rg input[type='text']{
+    display: inline;
+}
+#form_mail label{
+  float:none;
+  bottom:12px !important;
+  left:inherit !important;
+  margin:0 !important;
+  display: block;
+}
+#form_mail p.mw_into{
+      padding: 10px 15px 0;
+      margin-bottom: 0;
+}
+#form_mail #submit_mail{
+  margin: 0 ;
+}
+#form_mail div.terms{
+  padding: 0 15px 15px;
+  font-size: 12px;
+  display: block;
+  max-width: 99%;
+}
+#form_mail .header_title{
+  text-align: center;
+  margin:12px 0 17px;
+
+}
+#form_mail .form_area{
+  text-align: center;
+  width: auto;
+  padding: 20px 0 10px;
+  height: 265px;
+}
+#form_mail .form_area li{
+  list-style: none;
+  display: inline-block ;
+  vertical-align: top;
+}
+#form_mail .ms_spam{
+  padding: 4px 0 10px;
+  margin: 0;
+}

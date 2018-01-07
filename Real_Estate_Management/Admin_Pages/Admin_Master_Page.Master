@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin_Master_Page.master.cs" Inherits="Real_Estate_Management.Admin_Pages.Admin_Master_Page" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        <asp:LinkButton ID="Building" runat="server" OnClick="Building_Click">Building</asp:LinkButton>
+&nbsp;
+        <asp:LinkButton ID="land" runat="server" OnClick="land_Click">Land</asp:LinkButton>
+&nbsp;
+        <asp:LinkButton ID="location_building" runat="server" OnClick="location_building_Click">location_building</asp:LinkButton>
+&nbsp;<asp:LinkButton ID="location_land" runat="server" OnClick="location_land_Click">LinkButton_land</asp:LinkButton>
+&nbsp;&nbsp;
+        <asp:LinkButton ID="message" runat="server" OnClick="message_Click">message</asp:LinkButton>
+&nbsp;
+        <asp:LinkButton ID="purpose" runat="server" OnClick="purpose_Click">purpose</asp:LinkButton>
+&nbsp;
+        <asp:LinkButton ID="role" runat="server" OnClick="role_Click">role</asp:LinkButton>
+&nbsp;&nbsp;
+        <asp:LinkButton ID="room" runat="server" OnClick="room_Click">room</asp:LinkButton>
+&nbsp;<asp:LinkButton ID="room_type" runat="server" OnClick="room_type_Click">room type</asp:LinkButton>
+&nbsp;<asp:LinkButton ID="users" runat="server" OnClick="users_Click">users</asp:LinkButton>
+&nbsp;<asp:LinkButton ID="apartment" runat="server" OnClick="apartment_Click">Apartment</asp:LinkButton>
+&nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

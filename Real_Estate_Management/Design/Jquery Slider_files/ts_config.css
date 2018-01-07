@@ -1,0 +1,185 @@
+@import url(http://fonts.googleapis.com/css?family=Alfa+Slab+One|Alice|Allan|Amaranth|Anonymous+Pro|Baumans|Boogaloo|Buda|Coustard|Crushed|Cuprum|Yanone+Kaffeesatz|Damion|Federo|Gruppo|Josefin+Slab|Just+Another+Hand|Lobster+Two|Maiden+Orange|Nobile|Philosopher|Raleway|Wire+One|);
+/*Config plugin*/
+div.ts_main_config div.postbox{
+	margin-top:20px;
+}
+div.ts_main_config h3{
+	color:#464646;
+	border-bottom-color:#DFDFDF;
+	text-shadow:#FFF 0 1px 0;
+	-moz-box-shadow:0 1px 0 #FFF;
+	-webkit-box-shadow:0 1px 0 #FFF;
+	box-shadow:0 1px 0 #FFF;
+	font-size:15px;
+	line-height:1;
+	font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	padding:10px;
+}
+div.ts_main_config div.postbox table.form-table input[type="radio"]{
+	margin:-1px 5px 0 0;
+}
+div.ts_main_config div.postbox table.form-table select.ts_cat_inactive{
+	display:none;
+}
+div.ts_main_config div.postbox table.form-table select.ts_cat_active{
+	display:inline;
+}
+div.ts_main_config div.postbox table.form-table input[name="ts_rss_name"]{
+	width:100%;
+}
+/* slider images */
+div.ts_opt_images{
+	float:left;
+	padding:0 5px 10px;
+}
+div.ts_opt_images input[type="radio"]{
+	margin:0 5px 0 0;
+	vertical-align:top;
+}
+div.ts_opt_images img{
+	cursor:pointer;
+}
+div.ts_block{
+	display:inline-block;
+	vertical-align:top;
+}
+.ts_margin{
+	margin-left:45px;
+}
+#ts_opt_image img, #ts_txt_bk img{
+	height:64px;
+	width:64px;
+}
+
+/*.custom{
+	display:none;
+}*/
+.ts_credits{
+	margin: 0 10px 0 0;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font/fontawesome-webfont.eot');
+  src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*  Font Awesome styles
+    ------------------------------------------------------- */
+.ts-slider-area [class^="icon-"]:before,
+.ts-slider-area [class*=" icon-"]:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+}
+a [class^="icon-"],
+a [class*=" icon-"] {
+  display: inline-block;
+  text-decoration: inherit;
+}
+.ts-slider-area [class^="icon-"], [class*=" icon-"]{
+		margin: 3px 5px 0 0;
+		font-size: 16px;
+		text-align: center;
+}
+/* makes the font 33% larger relative to the icon container */
+.icon-large:before {
+  vertical-align: middle;
+  font-size: 1.3333333333333333em;
+}
+.btn [class^="icon-"],
+.nav-tabs [class^="icon-"],
+.btn [class*=" icon-"],
+.nav-tabs [class*=" icon-"] {
+  /* keeps button heights with and without icons the same */
+
+  line-height: .9em;
+}
+.ts-slider-area li [class^="icon-"],
+.ts-slider-area li [class*=" icon-"] {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
+}
+.ts-slider-area li .icon-large:before,
+.ts-slider-area li .icon-large:before {
+  /* 1.5 increased font size for icon-large * 1.25 width */
+
+  width: 1.875em;
+}
+.ts-slider-area ul.icons {
+  list-style-type: none;
+  margin-left: 2em;
+  text-indent: -0.8em;
+}
+.ts-slider-area ul.icons li [class^="icon-"],
+.ts-slider-area ul.icons li [class*=" icon-"] {
+  width: .8em;
+}
+.ts-slider-area ul.icons li .icon-large:before,
+.ts-slider-area ul.icons li .icon-large:before {
+  /* 1.5 increased font size for icon-large * 1.25 width */
+
+  vertical-align: initial;
+}
+/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+    readers do not read off random characters that represent icons */
+		
+.ts-slider-area .icon-user:before {
+  content: "\f007";
+}
+.ts-slider-area .icon-calendar:before {
+  content: "\f073";
+}
+
+
+/* new design sslider dashboard */
+
+.ts_main_config .options-sidebar {
+	width: 298px;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ts_main_config .title-opt-item {
+	width: 148px;
+	display: inline-block;
+	vertical-align: top;
+}
+.ts_main_config .inputs-group {
+	width: 140px;
+	display: inline-block;
+}
+.ts_main_config .inputs-group input[type="text"],
+.ts_main_config .inputs-group input[type="number"],
+.inputs-group select{
+	width:  100%;
+}
+.ts_main_config .block-option{
+	padding: 10px 0;
+}
+
+.ts_main_config .ts_block {
+	padding: 10px 0 0;
+}
+.twitter_auth label, .twitter_auth input{
+	display:inline-block;
+	width:49%;
+}
+.twitter_auth p.description, .twitter_auth .button{
+	position: relative;
+	left: 49%;
+	max-width:49%;
+}
+.twitter_auth p.description.msg{
+	display: none;
+	color: rgb(0, 128, 0);
+}
+div.twitter_auth h4{
+	margin: 8px 0 0;
+	line-height: 20px;
+}
